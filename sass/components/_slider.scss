@@ -1,0 +1,102 @@
+
+.slider{
+  @include flex;
+  justify-content: center;
+  //justify-items: center;
+  //background-image: url('https://avada.theme-fusion.com/classic-shop/wp-content/uploads/sites/48/2015/09/home1_slide_three_bg_2.jpg');
+  //position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:center ;
+  height: 65.0rem;
+  text-align: center;
+//margin: 5rem 0;
+  color: $white;
+  flex-direction: column;
+  
+  &--Animation
+  {animation: Slider 5s ease-out infinite;
+    animation-direction: alternate;
+    
+    @keyframes Slider {
+      0%
+      {
+        background-image:url("https://avada.theme-fusion.com/classic-shop/wp-content/uploads/sites/48/2015/09/home1_slide_three_bg_2.jpg")
+      }
+      50%
+      {
+        background-image: url("https://avada.theme-fusion.com/classic-shop/wp-content/uploads/sites/48/2015/09/home1_slide_one_bg.jpg");
+
+      }
+      100%
+      {
+background-image: url("https://avada.theme-fusion.com/classic-shop/wp-content/uploads/sites/48/2015/09/home1_slide_2_bg.jpg");
+      }
+      
+    }
+  }
+  &--mwidth
+  {
+    min-width: 43%;
+    max-height: 35rem;
+
+  }
+  &--left
+  {
+    padding-left: 6rem;
+    align-items: flex-start;
+    text-align: left;
+  }
+  &--center
+  {
+    align-items: center;
+
+  }
+  &__title{
+//     animation: tit 5s ease-in-out infinite;
+
+//     @keyframes tit {
+//         from{
+// opacity: 0;
+//         }
+//         to{
+// opacity: 1;
+//         }
+        
+//     }
+
+    &--primary{
+    letter-spacing: 0;
+    font-weight: 700;
+    font-size: 4rem;
+    &--lg
+    {
+      font-size: 8rem;
+    }
+
+    }
+    &--secondary{
+    margin-top: 2rem;
+    letter-spacing: 0.2rem;
+    font-weight: 400;
+    font-size: 1.5rem;
+    &--lg
+    {
+      font-size: 2rem;
+    }
+  
+
+    }
+    
+  }
+  &__btns--2btn{
+   
+    margin-top: 5rem;
+  }
+  &__btns--btn
+  {
+    margin-top: 3rem;
+  }
+
+}
+

@@ -1,0 +1,39 @@
+.header {
+  background-color: $white;
+  align-items: center;
+  border-top: 1px solid $line;
+  border-bottom: 1px solid $line;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 8rem;
+  flex-wrap: wrap;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1;
+  &--account {
+    margin: -0.8rem 0;
+    position: static;
+    border-bottom: none;
+    border-top: 3px solid $primary;
+  }
+  &__logo {
+  }
+  .cart-icon {
+    margin: 0 2rem;
+    cursor: pointer;
+    font-size: 3rem;
+  }
+  .fa-shopping-cart {
+    font-size: 3rem;
+    transition: all 0.5s;
+    &:hover {
+      color: $primary !important;
+    }
+  }
+}
+@media screen and (max-width: 900px) {
+  .header {
+    padding: 0 2rem;
+  }
+}

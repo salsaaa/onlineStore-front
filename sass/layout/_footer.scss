@@ -1,0 +1,98 @@
+.footer {
+  color: $white;
+  @include flex;
+  justify-content: space-between;
+  align-items: center;
+  justify-items: center;
+
+  .address {
+    @include flex;
+    line-height: 3rem;
+    flex-direction: column;
+    font-size: 1.3rem;
+    color: #eaeaea;
+    &__logo {
+      width: 15rem;
+      margin-bottom: 4rem;
+    }
+    &__add {
+      max-width: 40rem;
+    }
+  }
+  .recent-posts {
+    font-size: 1.6rem;
+
+    @include flex;
+    flex-direction: column;
+    color: $white;
+    &__desc {
+      transition: all 0.25s ease-in-out;
+
+      &:hover {
+        cursor: pointer;
+        color: $primary;
+      }
+      font-size: 1.3rem;
+      border-bottom: 0.01rem solid $blue;
+
+      font-weight: 400;
+      line-height: 6rem;
+    }
+  }
+  .tags-component {
+    @include flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    &__name {
+      margin-bottom: 3rem;
+      color: white;
+    }
+    &__tags {
+      @include flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+
+      max-width: 20rem;
+      min-height: 35rem;
+      .btn--third {
+        transition: background-color 0.25s;
+        color: white;
+        &:hover {
+          cursor: pointer;
+
+          background-color: $primary;
+        }
+      }
+      &__btn div {
+        color: white;
+      }
+    }
+  }
+}
+
+.copyright-color {
+  background-color: $very-heigh-dark-blue;
+
+  .copyright {
+    @include flex;
+    justify-items: center;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    &__desc {
+      font-size: 1.2rem;
+      margin-bottom: 2rem;
+      color: $white;
+      padding: 0 2rem;
+      text-align: center;
+    }
+    &__image {
+    }
+  }
+}
+@media screen and (max-width: 900px) {
+  .footer__color {
+    height: 100% !important;
+  }
+}

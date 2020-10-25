@@ -1,0 +1,36 @@
+
+
+.my-account
+{
+    @include flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 2rem 2rem;
+    min-height: 17rem;
+   
+    &__username
+    {
+       @include inputStyle;
+
+    }
+    &__password
+    {
+        @include inputStyle;
+
+    }
+    &__log-in
+    {
+    }
+    &__remember
+    {
+    }
+    &__register
+    {
+        cursor: pointer;
+    }
+    &--left
+    {
+        text-align: right;
+    }
+
+}

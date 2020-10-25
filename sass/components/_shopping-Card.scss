@@ -1,0 +1,59 @@
+.shopping-card {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid $line;
+  padding: 1rem 0;
+  &__total-cost{
+    font-weight: 800;
+  }
+  &__img {
+    width: 84%;
+    height: 8rem;
+    object-fit: cover;
+  }
+  &__item {
+    text-align: center;
+  }
+  &__products {
+    max-width: 11rem;
+    display: flex;
+    flex-direction: column;
+    &__desc {
+      width: 100%;
+      margin-top: 0.5rem;
+      font-size: 1rem;
+    }
+    &__title {
+      margin-top: 1rem;
+      font-size: 1.1rem;
+    }
+    &__rating {
+      font-size: 1.1rem;
+    }
+  }
+  &__price {
+    margin-top: 0;
+    padding: 6rem 0;
+  }
+  &__quantity {
+    padding: 6rem 0;
+  }
+  &__total-price {
+    padding: 6rem 0;
+  }
+}
+.ant-modal-content{
+  overflow-y: scroll;
+  max-height: 52rem;
+}
+.ant-modal-footer {
+  border: none;
+  padding: 0 20px 22px 16px;
+}
+.grayTxt{
+  color: #8c8c8c;
+}
+.delete-icon{
+  font-size: 1.7rem;
+    color: #b10707;
+}

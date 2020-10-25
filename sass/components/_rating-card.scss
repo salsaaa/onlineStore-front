@@ -1,0 +1,51 @@
+
+
+    .rating-card{
+        margin-top: 3rem;
+        @include flex;
+        justify-content: space-between;
+        &--gray{
+        border-bottom: 0.01rem solid $line;
+        }
+        &--blue
+        {
+            border-bottom: 0.01rem solid $blue;
+   
+        }
+       
+       
+
+    &__img
+    {
+
+    }
+    &__image
+    {width: 5.8rem;}
+   &__desc{
+    margin-right:2rem;
+      line-height: 3rem;
+   
+    &--des
+    {
+        font-size: 1.3rem;
+
+        transition: all 0.25s ease-in-out;
+
+        &:hover{
+            cursor: pointer;
+            color: $primary;   
+        }
+    }
+    &--rating
+    {
+        font-size: 1.4rem;
+        color: $primary;   
+
+    }
+    &--price
+    {
+        font-weight: 700;
+        font-size: 1.4rem;
+
+    }
+}}

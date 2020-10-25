@@ -1,0 +1,35 @@
+*{
+    clear: both;;
+    
+    
+    
+}
+.fa
+        {
+            &:hover{
+                cursor: pointer;
+                color: $hovered-social;
+            }
+        }
+.gray
+        {
+            background-color: $gray-bg;
+            width: 100%;
+            min-height:43rem ;
+        
+        }
+
+        .footer__color
+        {
+           
+            background-color: $heigh-dark-blue;
+            height: 61rem;
+        }
+        .rating-cards
+{       
+    @include flex;
+    flex-direction: column;
+    letter-spacing: 0.25rem;
+
+    font-size: 1.5rem;
+}

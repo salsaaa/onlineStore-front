@@ -1,0 +1,27 @@
+.line
+{
+   // position: absolute;
+   // content: "";
+    width: 33%;
+    height: 30%;
+    top: 2.5rem;
+    border-top: 0.1rem solid $line;
+    margin-top: 2.2rem;;
+}
+.word
+{
+   // position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    //text-align: center;
+    text-align: center;
+    font-weight: 700;
+    font-size: 3.8rem;
+    &--sm
+    {
+        margin-top: 2rem;
+        
+        font-size: 1.7rem;
+        font-weight: 100;
+    }
+
+}

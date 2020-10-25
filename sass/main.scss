@@ -1,0 +1,41 @@
+//vendors
+//abstract
+@import 'abstracts/variables';
+@import 'abstracts/mixin';
+@import 'abstracts/functions';
+//base
+@import 'base/base';
+
+//layout
+@import 'layout/header';
+@import 'layout/my-account';
+@import 'layout/social-icons';
+@import 'layout/navigation';
+@import 'layout/nav-item';
+@import 'layout/submenu';
+@import 'layout/submenu-item';
+@import 'layout/category';
+@import 'layout/footer';
+//components
+@import 'components/button.scss';
+@import'components/detailed-Card';
+@import 'components/slider';
+@import 'components/attached-Card';
+@import 'components/scaled-Card';
+@import 'components/rating-card';
+@import 'components/brand-logo';
+@import 'components/subscribe';
+@import 'components/line';
+@import 'components/shopping-Card';
+
+
+
+
+
+//pages
+
+@import 'pages/home';
+@import 'pages/placeOrder';
+
+//themes
+@import '~antd/dist/antd.css';

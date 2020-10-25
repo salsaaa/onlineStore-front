@@ -1,0 +1,17 @@
+.submenu__item
+{
+        font-size: 1.3rem;
+        padding: 2rem 2rem ;
+        background-color: $white;
+      
+          &:hover
+        {
+            background-color:$clicked;
+            
+        }
+         list-style: none;
+        &__link
+        {
+
+        }
+    }

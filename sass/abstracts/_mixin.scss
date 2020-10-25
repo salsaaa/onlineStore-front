@@ -1,0 +1,25 @@
+@mixin line-design
+{
+    position: absolute;
+    content: "";
+    width: 30%;
+    height: 30%;
+    top: 2rem;
+    border-top: 0.1rem solid #e0dede;
+}
+@mixin flex {
+    display: flex;
+    
+    flex-wrap: wrap;
+    justify-content: center;
+   
+
+}
+@mixin inputStyle {
+    border: 1px solid #eaeaea;
+    color: #eaeaea;
+    max-width: 12.5rem;
+    min-height: 3rem;
+    padding: 0 1rem;
+    
+}

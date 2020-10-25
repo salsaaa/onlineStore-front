@@ -1,0 +1,72 @@
+.btn{
+    cursor: pointer;
+   
+    
+        
+   
+    &--primary
+    {
+        font-size: 1.4rem;
+        background-color: $primary;
+        color:$white;
+        border-radius: 2rem ;
+        &:hover
+        {
+            cursor: pointer;
+            opacity: 0.9;
+
+        }
+        padding: 1rem 2rem;
+
+        
+    }
+    &--sm
+    {
+        font-size: 1rem;
+    }
+    &--secondary
+    {   
+        font-weight: 1000;
+        font-size: 1.2rem;
+       display: inline-block;
+        border: 0.2rem solid $white;
+        padding: 1.3rem 1.8rem;
+       // margin-left: 3rem;
+        border-radius: 2.5rem ;
+        background-color: rgba(116, 75, 75, 0.2);;
+        
+
+        &:hover
+        {
+            cursor: pointer;
+            background-color: transparent;
+        }
+        color: $white;
+
+        
+    }
+    &--lg-font
+    {
+        font-size: 1.5rem;
+        padding-right: 4rem;;
+        padding-left: 4rem;
+        margin-left: 1.8rem;
+
+    }
+    &--third
+    {
+        background-color: transparent;
+        border: 0.2rem solid $blue;
+        padding: 0.5rem 1rem;
+        &:hover
+        {
+            cursor: pointer;
+
+        }
+
+
+    }
+    
+    
+    }
+    

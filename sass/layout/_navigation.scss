@@ -1,0 +1,22 @@
+.nav {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  flex-wrap: wrap;
+  &--categories {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  &--centerd {
+    justify-content: center;
+    border: 1px solid $line;
+  }
+}
+@media screen and (max-width: 900px) {
+    .nav__item{
+      padding: 2rem 2rem !important;
+    }
+  }

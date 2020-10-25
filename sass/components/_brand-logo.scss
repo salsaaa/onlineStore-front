@@ -1,0 +1,16 @@
+.brand
+{position: relative;
+   &__name{  
+       position: absolute;   
+letter-spacing: 0.5rem;
+
+font-size: 1.4rem;
+padding-top: 6.7rem;
+    left: 43%;
+   }
+   &__logo
+{
+    padding-top: 6rem;
+}
+}
+

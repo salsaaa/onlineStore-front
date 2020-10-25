@@ -1,0 +1,5 @@
+export default {
+  FETCH_PRODUCTS: "FETCH_PRODUCTS",
+  ADD_CART: "ADD_CART",
+  ADD_USER: "ADD_USER",
+};

@@ -1,0 +1,31 @@
+.attachment-card
+{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-image: url("https://avada.theme-fusion.com/classic-shop/wp-content/uploads/sites/48/2015/08/testimonials_home_1_bg.jpg");
+   background-size: 100%;
+   background-attachment: fixed;
+   background-position: center;
+   height: 50rem;
+   
+    &__img
+    {
+        margin: 0 auto;
+        width: 9rem;
+        height: 9rem;
+        
+        background-image: url("https://avada.theme-fusion.com/classic-shop/wp-content/uploads/sites/48/2015/09/man_testimonial.png");
+    }
+    &__desc
+    {           margin: 0 auto;
+
+        max-width: 90rem;
+        font-family: 'Karla', sans-serif;
+        font-size: 1.8rem;
+        margin-top: 4rem;
+        color: $white;
+    }
+}
